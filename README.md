@@ -2,13 +2,16 @@
 
 An end-to-end, production-grade gradient boosting ensemble pipeline that achieved a **Top 3 Podium Finish (#3)** in the [New Moscow Housing Valuation Challenge Leaderboard](https://www.kaggle.com/competitions/ne-vsos-ii-new-moscow/leaderboard).
 
-## 📊 Final Performance Results
+> 🚀 **Post-Deadline Optimization:** The production code provided in this repository includes final hyperparameter updates executed right after the freeze, successfully breaking the sub-300 barrier to hit a **299.10 RMSE**.
 
-| Phase / Iteration | Public Leaderboard RMSE | Private Leaderboard RMSE (Final) | Technical Strategy Shift |
-| :--- | :--- | :--- | :--- |
-| Baseline | 303.14 | *Overfitted* | Vanilla LightGBM Gradient Boosting |
-| Mid-Challenge | 301.06 | 302.40 | Single-Target Robust Huber Loss Pipeline |
-| **Final Ensemble** | **300.54** | **299.10** 🔥 | **Multi-Objective Target Stacking ($y_{\text{ppm}}$ + $y_{\text{raw}}$)** |
+## 📊 Performance Progression
+
+| Phase / Iteration | Metric (RMSE) | Context / Standing |
+| :--- | :--- | :--- |
+| Baseline | 303.14 | Vanilla LightGBM Gradient Boosting |
+| Mid-Challenge | 301.06 | Single-Target Robust Huber Loss Pipeline |
+| **Official Submission** | **300.54** | **Official #3 Podium Finish** 🏆 |
+| **Production Repo Code** | **299.10** | **Post-Deadline Stacking Optimization** 🔥 |
 
 ## 💡 Core Innovations
 
