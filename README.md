@@ -1,5 +1,7 @@
 # New Moscow Real Estate Valuation Stacking Framework
 
+An end-to-end, production-grade gradient boosting ensemble pipeline that achieved a **Top 3 Podium Finish (#3)** in the [New Moscow Housing Valuation Challenge Leaderboard](https://www.kaggle.com/competitions/ne-vsos-ii-new-moscow/leaderboard).
+
 An end-to-end, production-grade gradient boosting ensemble pipeline that achieved a **Top 3 Podium Finish (#3)** in the New Moscow Housing Valuation Challenge.
 
 ## 📊 Final Performance Results
